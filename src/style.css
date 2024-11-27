@@ -1,5 +1,48 @@
-.class {
-  background: linear-gradient(45deg, rgb(152, 207, 195), rgb(86, 181, 184));
-  text-decoration: dotted;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+@font-face { 
+    font-family: "MontserratThin";
+    src: url(./fonts/MontserratRegular.woff);
+    font-style: normal;
+    font-weight: 500;
+}
+p {
+  font-family: 'MontserratThin';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+
+}
+.line {
+  display: block;
+  border-top: 1px solid rgba(161, 161, 161, 0.5);
+  width: 100%;
+  position: absolute;
+  top: 99px;
+  z-index: 1;
+}
+#rectangle {
+  width: 1920px;
+  position: absolute;
+}
+.block_menu {
+  display: inline;
+  flex-grow: 1;
+  z-index: 1;
+  text-align: end;
+}
+.first_screen_menu {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  width: 583px;
+  height: 59px;
+  top: 40px;
+  left: 932px;
+  color: white;
+}
